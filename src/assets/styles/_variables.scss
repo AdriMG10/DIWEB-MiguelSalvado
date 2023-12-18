@@ -1,12 +1,17 @@
 @use "sass:color";
 
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-  "Segoe UI Symbol";
-$font-family-serif: "Georgia", "Times New Roman", serif;
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto+Mono&display=swap');
 
-$uoc-corporate: #000078;
-$uoc-masterbrand: #73edff;
-$uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
+$font-family-dafoe: 'Mr Dafoe', cursive;
+$font-family-roboto: 'Roboto Mono', monospace;
 
-$mqMinWidth: 420px;
+/* Paleta Colores */
+$color1:#F8F9FA;
+$color2:#E9ECEF;
+$color3:#DEE2E6;
+$color4:#CED4DA;
+$color5:#ADB5BD;
+$color6:#6C757D;
+$color7:#495057;
+$color8:#343A40;
+$color9:#212529;

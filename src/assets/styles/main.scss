@@ -23,7 +23,9 @@
  * It's a best practice to use a different partial for each page
  */
 
-@import "layouts/home";
+ @import "layouts/index";
+ @import "layouts/header";
+ @import "layouts/footer";
 
 /**
  * Do NOT include anything else in this file!

@@ -1,0 +1,50 @@
+.header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin-top: 8px;
+
+    .header__div {
+        grid-column: 1/13;
+        display: flex;
+        flex-direction: column;
+
+        .header__zonaTitulo {
+            grid-column: 2/5;
+
+            background-color: $color3;
+            height: 100%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            h1 {
+                font-family: $font-family-dafoe;
+                font-weight: normal;
+                word-spacing: 0.25em;
+            }
+        }
+
+        .header__zonaNav {
+            grid-column: 5/12;
+
+            background-color: $color4;
+            height: 100%;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+            a {
+                padding: 1.5em;
+
+                text-decoration: none;
+                color: $color9;
+            }
+
+            a:hover {
+                background-color: $color5;
+            }
+        }
+    }
+}

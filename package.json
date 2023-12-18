@@ -1,8 +1,8 @@
 {
-  "name": "uoc-boilerplate",
-  "version": "3.7.0",
+  "name": "SitioMiguelSalvado",
+  "version": "1.0.0",
   "private": true,
-  "description": "Boilerplate for Advanced HTML/CSS Tools UOC students",
+  "description": "Sitio web del fotógrafo Miguel Salvado",
   "scripts": {
     "parcel:serve": "parcel src/index.html -p 8123 --target web --open",
     "parcel:build": "parcel build src/index.html --target web --no-source-maps --no-cache",
@@ -25,9 +25,13 @@
     "type": "git",
     "url": "git+https://github.com/AdriMG10/DIWEB-MiguelSalvado.git"
   },
-  "author": {
-    "name": "Adrián Merino Gamaza - Ricardo Gabriel Moreno Cantea",
+  "author1": {
+    "name": "Adrián Merino Gamaza",
     "email": "amergam1012@g.educaand.es"
+  },
+  "author2": {
+    "name": "Ricardo Moreno Cantea",
+    "email": "rmorcan@g.educaand.es"
   },
   "license": "MIT",
   "bugs": {

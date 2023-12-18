@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    font-family: $font-family-roboto;
+}
+
+body {
+    background-color: $color1;
+}
+
+.main {
+    .main__zonaImagenes {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(14, 1fr);
+        #landingPage1 {
+            grid-column: 2/6;
+            grid-row: 1/4;
+        }
+        
+    }
+}

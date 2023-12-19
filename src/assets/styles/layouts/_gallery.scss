@@ -1,0 +1,35 @@
+.gallery-container {
+    h1 {
+        display: flex;
+    }
+    h2 {
+        text-align: right;
+    }
+    .gallery-container__img {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.awards {
+    width: 50%;
+    text-align: justify;
+}
+
+.featured-in {
+    margin-top: 50px;
+    width: 50%;
+    text-align: justify;
+}
+
+.photographic-details {
+    font-size: 15px;
+    ul,
+    li,
+    h4 {
+        text-decoration: none;
+        text-align: right;
+        list-style: none;
+    }
+}

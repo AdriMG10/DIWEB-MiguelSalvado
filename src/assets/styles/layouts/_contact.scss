@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.contact-container {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente en el cuerpo de la página */
+    align-items: center; /* Centra verticalmente en el cuerpo de la página */
+}
+
+.form-image {
+    width: 400px;
+    border: 10px solid $color4;
+    margin-right: 30px;
+}
+
+.contact-form {
+    width: 300px;
+    margin-left: 30px;
+    #fullName {
+        display: flex;
+        div {
+            display: flex;
+            flex-direction: column;
+        }
+        #divName {
+            margin-right: 0.5em;
+        }
+    }
+    .contact-form__submitDiv {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+label,
+input,
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid $color5;
+}
+
+input[type="submit"] {
+    background-color: $color7;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: $color8;
+}

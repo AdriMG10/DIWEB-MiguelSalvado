@@ -1,0 +1,50 @@
+.gallery {
+    p {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    div {
+        margin: 1em auto;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item1 {
+    width: 1050px;
+    background-color: $color4;
+    text-align: center;
+    justify-content: center;
+    img {
+        width: 325px;
+    }
+}
+
+.item2 {
+    text-align: center;
+    justify-content: center;
+    img {
+        width: 1050px;
+    }
+    p {
+        align-self: flex-end;
+        justify-self: flex-start;
+        position: relative;
+        top: 70px;
+    }
+}
+
+.item3 {
+    width: 1050px;
+    text-align: center;
+    justify-content: center;
+    img {
+        width: 1050px;
+    }
+    p {
+        align-self: flex-end;
+        justify-self: flex-start;
+        position: relative;
+        top: 70px;
+    }
+}

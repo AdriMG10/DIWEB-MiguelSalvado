@@ -37,7 +37,6 @@ Web centrada en exponer los trabajos fotográficos más reconocidos y próximos 
 ## 1.4 Lenguajes de programación usados
 - HTML
 - CSS
-- JavaScript
 
 ## 1.5 Tecnologías usadas
 - Parcel
